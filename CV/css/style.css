@@ -1,0 +1,91 @@
+
+/* ----------------------------------------------------
+					Section Général
+---------------------------------------------------- */
+@font-face {
+	font-family: 'Fira Sans';
+	src: url("../lib/font-family/fira-sans/FiraSans-Regular.otf");
+}
+
+html {
+	font-family: 'Fira Sans';
+}
+
+body {
+	height: auto;
+	margin: 0 0 0 0;
+}
+
+.divInline {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	padding-top: 1%;
+	padding-left: 2%;
+}
+
+/* ------------------------------------------------------
+					DivLeft - DivRight
+------------------------------------------------------ */
+.divBack {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.divLeft, .divRight {
+	display: inline-block;
+	height: 654px; /* Gére la taille aux deux div, modifié la donnée revient à la taille des div */
+}
+
+.divLeft {
+	background-color: #373737;
+	position: absolute;
+	width: 12%;
+}
+
+.divRight {
+	padding-left: 12%;
+	width: 88%;
+}
+
+.divBack section {
+	padding: 2%;
+}
+
+
+/* ------------------------------------------------------
+					Présentation
+------------------------------------------------------ */
+.presentation .section-header, .presentation .section-info {
+	display: inline-block;
+}
+
+.presentation .section-header {
+	font-size: 1.3em;
+}
+
+.presentation {
+	text-align: center;
+}
+
+.presentation .section-info {
+	float: right;
+}
+
+.section-info-img {
+	height: 100px;
+	width: 100px;
+	border: 1px solid #000000;
+	box-shadow: 6px 6px 3px #000000;
+}
+
+/* ----------------------------------------------------
+					Section-Header
+---------------------------------------------------- */
+.section-header h3 {
+	color: #6a4d47;
+	text-align: center;
+}
+
+.section-info {
+	text-align: justify;
+}
