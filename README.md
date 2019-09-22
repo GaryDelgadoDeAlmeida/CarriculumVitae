@@ -1,3 +1,3 @@
 # CarriculumVitae
 
-CV coder en html & css.
+CV codé en html & css.
