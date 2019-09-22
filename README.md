@@ -1,3 +1,3 @@
 # CarriculumVitae
 
-CV coder en html. Une version responsive est attendu.
+CV coder en html & css.
